@@ -46,11 +46,14 @@
                 <li class=nav-item>
                     <a class="nav-link active" id=profile-tab data-toggle=tab href=#profile role=tab aria-controls=profile aria-selected=false>About Me!</a>
                 </li>
-                <li class=nav-item>
-                    <a class=nav-link id=work-tab data-toggle=tab href=#work role=tab aria-controls=work aria-selected=false>Works</a>
-                </li>
+                <!--<li class=nav-item>-->
+                    <!--<a class=nav-link id=work-tab data-toggle=tab href=#work role=tab aria-controls=work aria-selected=false>Works</a>-->
+                <!--</li>-->
                 <li class=nav-item>
                     <a class=nav-link id=book-tab data-toggle=tab href=#book role=tab aria-controls=book aria-selected=false>Courses and Tricks</a>
+                </li>
+                <li class=nav-item>
+                    <a class=nav-link id=other-tab data-toggle=tab href=#other role=tab aria-controls=other aria-selected=false>Others</a>
                 </li>
             </ul>
             <div class=tab-content id=myTabContent>
@@ -166,6 +169,11 @@
                                     </div>
                                 </div>
                                 <div class=progress>
+                                    <div class="progress-bar .progress-bar-striped bg-jq" role=progressbar style=width:40% aria-valuenow=50 aria-valuemin=0 aria-valuemax=100>
+                                        jQuery (4 years)
+                                    </div>
+                                </div>
+                                <div class=progress>
                                     <div class="progress-bar .progress-bar-striped bg-html" role=progressbar style=width:40% aria-valuenow=50 aria-valuemin=0 aria-valuemax=100>
                                         HTML (4 years)
                                     </div>
@@ -263,7 +271,18 @@
                                         </div>
                                         <div id=collapseThreeFW class=collapse aria-labelledby=headingThreeFW data-parent=#accordionFramework>
                                             <div class=card-body>
-                                                Coming soon!
+                                                <button type=button class="btn btn-info mb-1">
+                                                    Magento
+                                                </button>
+                                                <button type=button class="btn btn-primary mb-1">
+                                                    Wordpress
+                                                </button>
+                                                <button type=button class="btn btn-secondary mb-1">
+                                                    Bigcommerce
+                                                </button>
+                                                <button type=button class="btn btn-success mb-1">
+                                                    ODO
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
@@ -283,6 +302,9 @@
                                             <div class=card-body>
                                                 <button type=button class="btn btn-primary mb-1">
                                                     Apache <span class="badge badge-light">2.x</span>
+                                                </button>
+                                                <button type=button class="btn btn-info mb-1">
+                                                    Docker
                                                 </button>
                                                 <button type=button class="btn btn-danger mb-1">
                                                     Ngnix <span class="badge badge-light">Improving...</span>
@@ -329,7 +351,7 @@
                         </div>
                     </ul>
                 </div>
-                <div class="tab-pane fade" id=work role=tabpanel aria-labelledby=work-tab>Coming soon</div>
+                <!--<div class="tab-pane fade" id=work role=tabpanel aria-labelledby=work-tab>Coming soon</div>-->
                 <div class="tab-pane fade" id=book role=tabpanel aria-labelledby=book-tab>
                     <ul>
                         <li><a href=https://github.com/DavidLambauer/awesome-magento2>Awesome Magento 2 - Tool</a></li>
@@ -347,6 +369,17 @@
                         <li><a href=https://github.com/rse/es6-features>ES6 features</a></li>
                         <li><a href=https://devdocs.magento.com/guides/v2.3/graphql/ >Magento GraphQL</a></li>
                         <li><a href=https://css-tricks.com/gulp-for-beginners/ >Gulp for Beginners</a></li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id=other role=tabpanel aria-labelledby=other-tab>
+                    <h2>Experienced</h2>
+                    <ul class=post-list>
+                        - GA - Google Analytics<br>
+                        - GTM - Google Tags Manager <br>
+                        - SEO <br>
+                        - Algolia Search <br>
+                        - Elastic Search <br>
+                        - <a href="http://youthspark.digitalskill.vn/">E-learning system</a>
                     </ul>
                 </div>
             </div>
